@@ -14,6 +14,12 @@
 							<br />
 							{{ profil.bio }}
 							Now you can call me <b>Alka</b>
+							<br />
+							<a
+								class="text-decoration-none email"
+								:href="`mailto:${profil.email}`"
+								>📧{{ profil.email }}</a
+							>
 						</div>
 					</div>
 				</div>
@@ -46,5 +52,15 @@ export default {
 .content {
 	border: 3px solid #2c3e50;
 	border-radius: 20px;
+}
+a {
+	font-weight: bold;
+	color: #42b983;
+}
+.email {
+	font-family: Avenir, Helvetica, Arial, sans-serif !important;
+	-webkit-font-smoothing: antialiased !important;
+	-moz-osx-font-smoothing: grayscale !important;
+	font-size: 14px;
 }
 </style>

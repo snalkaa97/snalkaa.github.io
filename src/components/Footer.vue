@@ -72,3 +72,8 @@
 		<p class="text-muted">on development</p>
 	</footer>
 </template>
+<style scoped>
+a {
+	color: #2c3e50;
+}
+</style>
