@@ -6,7 +6,9 @@
 			class="text-start"
 		>
 			<h4 class="mt-5">🪧{{ experience.name }}</h4>
-			<p class="mb-1">💻{{ experience.position }}</p>
+			<p class="mb-1">
+				💻{{ experience.position }} &nbsp; 📅{{ experience.period }}
+			</p>
 			<Jobdesc v-bind:jobdescs="experience.jobdesc" />
 			<Project v-bind:projects="experience.projects" />
 		</div>
