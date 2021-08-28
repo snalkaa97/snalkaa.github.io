@@ -1,6 +1,6 @@
 <template>
 	<div class="portfolio">
-		<Project />
+		<Project v-bind:projects="projects" />
 		<Footer />
 	</div>
 </template>
@@ -22,6 +22,14 @@ export default {
 	},
 	mounted() {},
 	methods: {},
+	computed: {
+		projects() {
+			return this.$store.state.projects;
+		},
+		experiences() {
+			return this.$store.state.experiences;
+		},
+	},
 };
 </script>
 <style scoped></style>
