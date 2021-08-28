@@ -5,7 +5,11 @@
 				<div class="row">
 					<div class="col-lg-1 col-sm-12">
 						<div class="flex-shrink-0">
-							<img class="user-pic mr-3" src="../assets/alka1.jpg" alt="" />
+							<img
+								class="user-pic mr-3"
+								src="../assets/profile_pic.png"
+								alt=""
+							/>
 						</div>
 					</div>
 					<div class="col-lg-11 col-sm-12">
