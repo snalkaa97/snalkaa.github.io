@@ -16,6 +16,94 @@ export default new Vuex.Store({
 			bio:
 				"Currently working at Ministry Of State-Owned Enterprises (Kementerian Badan Usaha Milik Negara) as Web Programmer. Started my career since 2020 after graduated as Bachelor Degree at Universitas Muhammadiyah Jakarta. Before joining SOE, I also have been same career as Web Developer.",
 		},
+		projects: [
+			{
+				name: "Pokemon API with ReactJs",
+				link: "https://github.com/snalkaa97/pokemon-reactjs",
+				description: "Show detail pokemon by consume API from pokeapi.co",
+				tag: ["javascript", "reactjs"],
+			},
+			{
+				name: "Pokemon API with VanillaJs",
+				link: "https://github.com/snalkaa97/pokemon",
+				description: "Show detail pokemon by consume API from pokeapi.co",
+				tag: ["javascript"],
+			},
+			{
+				name: "Covid-19 Updates",
+				link: "https://github.com/snalkaa97/Perkembangan-Covid19-Javascript",
+				description:
+					"Covid-19 up to date by consume API from api.kawalcorona.com with vanillaJs",
+				tag: ["javascript"],
+			},
+			{
+				name:
+					"Decision Support System for the Best Lecturers and Educators FTUMJ",
+				link: "https://github.com/snalkaa97/Tugas-Akhir",
+				description:
+					"Comparison of Simple Additive Weighting method and Weighted Product",
+				tag: ["PHP", "CodeIgniter 3", "MySQL"],
+			},
+		],
+		experiences: [
+			{
+				name: "Universitas Muhammadiyah Jakarta",
+				position: "Laboratory Asisstant (Tutor)",
+				period: "January 2018 - Agustus 2020",
+				jobdesc: [
+					"Basic of Programming (C)",
+					"Analytical Algorithm (Java)",
+					"Structure Data (C)",
+					"Web Programming (PHP)",
+					"Networking (Cisco Packet Tracer)",
+				],
+				projects: [],
+			},
+			{
+				name: "Kementerian Lingkungan Hidup dan Kehutanan",
+				position: "UI/UX",
+				period: "November 2018 - February 2019",
+				jobdesc: ["Design Dashboard to development monitoring of animals"],
+				projects: [],
+			},
+			{
+				name: "PT. Berdikari Sarana Teknologi",
+				position: "Web Developer",
+				period: "September 2020 - Maret 2021",
+				jobdesc: [
+					"Assisting the development of the Indonesian Ministry of Health's E-BMN Application",
+					"Assisting the creation of Point Of Sale (OpenBill) application product",
+					"Assisting the creation of Auction Application (PT. Balaing Lelang Internusa)",
+				],
+				projects: [
+					{
+						name: "OpenBill",
+						link: "https://warkopdjuragan.com/",
+						description: "Backend and Frontend",
+						tag: ["PHP", "CodeIniter 4", "PostgreSQL", "VueJs"],
+						image:
+							"https://snalkaa97.github.io/img/portfolio/Screen%20Shot%202020-12-29%20at%2020.10.36.png",
+					},
+					{
+						name: "Auction App",
+						link: "https://balisaauction.com/",
+						description: "Backend and Frontend",
+						tag: ["PHP", "CodeIniter 4", "PostgreSQL"],
+						image: "https://snalkaa97.github.io/img/portfolio/balisa.png",
+					},
+				],
+			},
+			{
+				name: "Kementerian Badan Usaha Milik Negara",
+				position: "Junior Progammer",
+				period: "April 2021 - current",
+				jobdesc: [
+					"Build the assigned Web Application",
+					"Maintain and make improvements to errors and bugs in the Web Application that are handled.",
+				],
+				projects: [],
+			},
+		],
 	},
 	mutations: {
 		changeProfile(state, payload, event) {

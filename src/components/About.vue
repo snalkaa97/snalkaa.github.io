@@ -2,15 +2,19 @@
 	<div class="about">
 		<div class="container mt-3">
 			<div class="content p-5">
-				<div class="d-flex text-start align-items-center">
-					<div class="flex-shrink-0">
-						<img class="user-pic mr-3" src="../assets/alka1.jpg" alt="" />
+				<div class="row">
+					<div class="col-lg-1 col-sm-12">
+						<div class="flex-shrink-0">
+							<img class="user-pic mr-3" src="../assets/alka1.jpg" alt="" />
+						</div>
 					</div>
-					<div class="flex-grow-1 ms-3 text-start">
-						<b>Hi 👋, I am {{ profil.name }}</b>
-						<br />
-						{{ profil.bio }}
-						Now you can call me <b>Alka</b>
+					<div class="col-lg-11 col-sm-12">
+						<div class="flex-grow-1 ms-3 text-start">
+							<b>Hi 👋, I am {{ profil.name }}</b>
+							<br />
+							{{ profil.bio }}
+							Now you can call me <b>Alka</b>
+						</div>
 					</div>
 				</div>
 			</div>
@@ -33,7 +37,7 @@ export default {
 	},
 };
 </script>
-<style scoped>
+<style>
 .user-pic {
 	height: 80px;
 	widows: 80px;
