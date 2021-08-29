@@ -1,10 +1,10 @@
 <template>
 	<div id="app">
 		<div id="nav">
-			<router-link to="/">Profile</router-link> |
+			<router-link to="/">About</router-link> |
 			<!-- <router-link to="/about">About</router-link> | -->
-			<router-link to="/portfolio">Portfolio</router-link> |
-			<router-link to="/experience">Experience</router-link>
+			<router-link to="/portfolio">My Featured Open Projects</router-link>
+			<!-- <router-link to="/experience">Experience</router-link> -->
 			<!-- <router-link to="/skills">Skills</router-link> -->
 		</div>
 		<router-view />

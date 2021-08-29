@@ -17,7 +17,7 @@
 							<b>Hi 👋, I am {{ profil.name }}</b>
 							<br />
 							{{ profil.bio }}
-							Now you can call me <b>Alka</b>
+							<!-- Now you can call me <b>Alka</b> -->
 							<br />
 							<a
 								class="text-decoration-none email"
@@ -56,6 +56,8 @@ export default {
 .content {
 	border: 3px solid #2c3e50;
 	border-radius: 20px;
+	white-space: pre-line;
+	vertical-align: bottom;
 }
 a {
 	font-weight: bold;
