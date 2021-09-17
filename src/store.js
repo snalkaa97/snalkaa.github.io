@@ -13,7 +13,7 @@ export default new Vuex.Store({
 		profile: {
 			name: "Syaifudin Alkatiri",
 			image: "../assets/profile_pic.png",
-			bio: `Currently working at Ministry Of State-Owned Enterprises (Kementerian Badan Usaha Milik Negara) as Web Programmer. Started my career since 2020 after graduated as Bachelor Degree at Universitas Muhammadiyah Jakarta. Before joining SOE, I also have been same career as Web Developer.\n\nI build the web using various PHP framework with some of popular like Laravel and CodeIgniter. I still learning various JavaScript frameworks like Vues.js and React.js, fyi this web using Vue.js.`,
+			bio: `Currently working at Ministry Of State-Owned Enterprises (Kementerian Badan Usaha Milik Negara) as Web Programmer. Started my career since 2020 after graduated as Bachelor Degree at Universitas Muhammadiyah Jakarta. Before joining SOE, I also have been same career as Web Developer.\n\nI build the web using various PHP framework with some of popular like Laravel and CodeIgniter, currently my specially is backend position. I still learning various frontend JavaScript frameworks like Vues.js and React.js, fyi this web using Vue.js.`,
 			email: "sfnalkatiri@gmail.com",
 		},
 		projects: [
