@@ -3,11 +3,11 @@
 		<div class="container mt-3">
 			<div class="content p-5">
 				<div class="row">
-					<div class="col-lg-1 col-sm-12">
+					<div class="col-lg-1 col-sm-12 mb-4">
 						<div class="flex-shrink-0">
 							<img
 								class="user-pic mr-3"
-								src="../assets/profile_pic.png"
+								src="../assets/alka2.png"
 								alt=""
 							/>
 						</div>
