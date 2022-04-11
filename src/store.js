@@ -13,7 +13,7 @@ export default new Vuex.Store({
 		profile: {
 			name: "syaifudin alkatiri",
 			image: "../assets/profile_pic.png",
-			bio: `I have 3 years experience in web programming and have experience working in that field and have been nationally certified as a Junior Web Developer by the National Professional Certification Agency until 2023. Currently working at Ministry Of State-Owned Enterprises (Kementerian Badan Usaha Milik Negara) as Web Programmer. Before joining SOE, I also have been same career as Web Developer.\n\nI build the web using various PHP framework with some of popular like Laravel and nodeJS, currently my specially is backend position. I still learning various frontend JavaScript frameworks like Vue and React , fyi this web using Vue`,
+			bio: `I have 3 years experience in web programming and working in that field. I get nationally certified as a Junior Web Developer by the National Professional Certification Agency until 2023.. Currently working at Ministry Of State-Owned Enterprises (Kementerian Badan Usaha Milik Negara) as Web Programmer. Before joining SOE, I also have been same career as Web Developer.\n\nI build the web using various PHP framework with some of popular like Laravel and nodeJS, currently my specially is backend position. I still learning various frontend JavaScript frameworks like Vue and React , fyi this web using Vue`,
 			email: "sfnalkatiri@gmail.com",
 		},
 		projects: [
