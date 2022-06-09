@@ -14,7 +14,7 @@
 					</div>
 					<div class="col-lg-11 col-sm-12">
 						<div class="flex-grow-1 ms-3 text-start">
-							<b>Hi 👋, I am {{ profil.name }}</b>
+							<b>Hi, I am {{ profil.name }}</b>
 							<br />
 							{{ profil.bio }}
 							<!-- Now you can call me <b>Alka</b> -->
