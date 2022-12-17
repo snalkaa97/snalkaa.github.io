@@ -18,6 +18,18 @@ export default new Vuex.Store({
 		},
 		projects: [
 			{
+				name: "ReactJS CRUD API and Redux",
+				link: "https://github.com/snalkaa97/react-crud-api",
+				description: "Simple CRUD React with API using Redux",
+				tag: ["javascript", "reactjs"],
+			},
+			{
+				name: "VueJs CRUD API",
+				link: "https://github.com/snalkaa97/vue-crud-laravel",
+				description: "Simple CRUD React with API using Backend Laravel",
+				tag: ["javascript", "vuejs"],
+			},
+			{
 				name: "Pokemon API with ReactJs",
 				link: "https://github.com/snalkaa97/pokemon-reactjs",
 				description: "Show detail pokemon by consume API from pokeapi.co",
